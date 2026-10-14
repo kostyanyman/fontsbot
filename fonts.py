@@ -1,3 +1,7 @@
+# fonts.py — ULTIMATE EDITION
+
+# ============ БАЗОВЫЕ МАТЕМАТИЧЕСКИЕ ============
+
 BOLD = {
     'a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢','j':'𝐣',
     'k':'𝐤','l':'𝐥','m':'𝐦','n':'𝐧','o':'𝐨','p':'𝐩','q':'𝐪','r':'𝐫','s':'𝐬','t':'𝐭',
@@ -91,6 +95,24 @@ SANS_BOLD = {
     '0':'𝟬','1':'𝟭','2':'𝟮','3':'𝟯','4':'𝟰','5':'𝟱','6':'𝟲','7':'𝟳','8':'𝟴','9':'𝟵',
 }
 
+SANS_ITALIC = {
+    'a':'𝘢','b':'𝘣','c':'𝘤','d':'𝘥','e':'𝘦','f':'𝘧','g':'𝘨','h':'𝘩','i':'𝘪','j':'𝘫',
+    'k':'𝘬','l':'𝘭','m':'𝘮','n':'𝘯','o':'𝘰','p':'𝘱','q':'𝘲','r':'𝘳','s':'𝘴','t':'𝘵',
+    'u':'𝘶','v':'𝘷','w':'𝘸','x':'𝘹','y':'𝘺','z':'𝘻',
+    'A':'𝘈','B':'𝘉','C':'𝘊','D':'𝘋','E':'𝘌','F':'𝘍','G':'𝘎','H':'𝘏','I':'𝘐','J':'𝘑',
+    'K':'𝘒','L':'𝘓','M':'𝘔','N':'𝘕','O':'𝘖','P':'𝘗','Q':'𝘘','R':'𝘙','S':'𝘚','T':'𝘛',
+    'U':'𝘜','V':'𝘝','W':'𝘞','X':'𝘟','Y':'𝘠','Z':'𝘡',
+}
+
+SANS_BOLD_ITALIC = {
+    'a':'𝙖','b':'𝙗','c':'𝙘','d':'𝙙','e':'𝙚','f':'𝙛','g':'𝙜','h':'𝙝','i':'𝙞','j':'𝙟',
+    'k':'𝙠','l':'𝙡','m':'𝙢','n':'𝙣','o':'𝙤','p':'𝙥','q':'𝙦','r':'𝙧','s':'𝙨','t':'𝙩',
+    'u':'𝙪','v':'𝙫','w':'𝙬','x':'𝙭','y':'𝙮','z':'𝙯',
+    'A':'𝘼','B':'𝘽','C':'𝘾','D':'𝘿','E':'𝙀','F':'𝙁','G':'𝙂','H':'𝙃','I':'𝙄','J':'𝙅',
+    'K':'𝙆','L':'𝙇','M':'𝙈','N':'𝙉','O':'𝙊','P':'𝙋','Q':'𝙌','R':'𝙍','S':'𝙎','T':'𝙏',
+    'U':'𝙐','V':'𝙑','W':'𝙒','X':'𝙓','Y':'𝙔','Z':'𝙕',
+}
+
 MONOSPACE = {
     'a':'𝚊','b':'𝚋','c':'𝚌','d':'𝚍','e':'𝚎','f':'𝚏','g':'𝚐','h':'𝚑','i':'𝚒','j':'𝚓',
     'k':'𝚔','l':'𝚕','m':'𝚖','n':'𝚗','o':'𝚘','p':'𝚙','q':'𝚚','r':'𝚛','s':'𝚜','t':'𝚝',
@@ -100,6 +122,8 @@ MONOSPACE = {
     'U':'𝚄','V':'𝚅','W':'𝚆','X':'𝚇','Y':'𝚈','Z':'𝚉',
     '0':'𝟶','1':'𝟷','2':'𝟸','3':'𝟹','4':'𝟺','5':'𝟻','6':'𝟼','7':'𝟽','8':'𝟾','9':'𝟿',
 }
+
+# ============ ОБРАМЛЁННЫЕ ============
 
 CIRCLED = {
     'a':'ⓐ','b':'ⓑ','c':'ⓒ','d':'ⓓ','e':'ⓔ','f':'ⓕ','g':'ⓖ','h':'ⓗ','i':'ⓘ','j':'ⓙ',
@@ -138,10 +162,25 @@ PARENTHESIZED = {
     'U':'🄤','V':'🄥','W':'🄦','X':'🄧','Y':'🄨','Z':'🄩',
 }
 
+# ============ КАПС / ШИРОКИЕ ============
+
 SMALL_CAPS = {
     'a':'ᴀ','b':'ʙ','c':'ᴄ','d':'ᴅ','e':'ᴇ','f':'ꜰ','g':'ɢ','h':'ʜ','i':'ɪ','j':'ᴊ',
     'k':'ᴋ','l':'ʟ','m':'ᴍ','n':'ɴ','o':'ᴏ','p':'ᴘ','q':'ǫ','r':'ʀ','s':'ꜱ','t':'ᴛ',
     'u':'ᴜ','v':'ᴠ','w':'ᴡ','x':'x','y':'ʏ','z':'ᴢ',
+}
+
+SUPERSCRIPT = {
+    'a':'ᵃ','b':'ᵇ','c':'ᶜ','d':'ᵈ','e':'ᵉ','f':'ᶠ','g':'ᵍ','h':'ʰ','i':'ⁱ','j':'ʲ',
+    'k':'ᵏ','l':'ˡ','m':'ᵐ','n':'ⁿ','o':'ᵒ','p':'ᵖ','q':'۹','r':'ʳ','s':'ˢ','t':'ᵗ',
+    'u':'ᵘ','v':'ᵛ','w':'ʷ','x':'ˣ','y':'ʸ','z':'ᶻ',
+    '0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹',
+}
+
+SUBSCRIPT = {
+    'a':'ₐ','e':'ₑ','h':'ₕ','i':'ᵢ','j':'ⱼ','k':'ₖ','l':'ₗ','m':'ₘ','n':'ₙ','o':'ₒ',
+    'p':'ₚ','r':'ᵣ','s':'ₛ','t':'ₜ','u':'ᵤ','v':'ᵥ','x':'ₓ',
+    '0':'₀','1':'₁','2':'₂','3':'₃','4':'₄','5':'₅','6':'₆','7':'₇','8':'₈','9':'₉',
 }
 
 FULLWIDTH = {
@@ -154,10 +193,65 @@ FULLWIDTH = {
     '0':'０','1':'１','2':'２','3':'３','4':'４','5':'５','6':'６','7':'７','8':'８','9':'９',
 }
 
+# ============ РУНЫ ============
+
+# Основные руны (Elder Futhark) — визуально похожие на латинские буквы
+RUNIC = {
+    'a':'ᚨ','b':'ᛒ','c':'ᚲ','d':'ᛞ','e':'ᛖ','f':'ᚠ','g':'ᚷ','h':'ᚺ','i':'ᛁ','j':'ᛃ',
+    'k':'ᚲ','l':'ᛚ','m':'ᛗ','n':'ᚾ','o':'ᛟ','p':'ᛈ','q':'ᛩ','r':'ᚱ','s':'ᛊ','t':'ᛏ',
+    'u':'ᚢ','v':'ᚡ','w':'ᚹ','x':'ᛪ','y':'ᛦ','z':'ᛉ',
+    'A':'ᚨ','B':'ᛒ','C':'ᚲ','D':'ᛞ','E':'ᛖ','F':'ᚠ','G':'ᚷ','H':'ᚺ','I':'ᛁ','J':'ᛃ',
+    'K':'ᚲ','L':'ᛚ','M':'ᛗ','N':'ᚾ','O':'ᛟ','P':'ᛈ','Q':'ᛩ','R':'ᚱ','S':'ᛊ','T':'ᛏ',
+    'U':'ᚢ','V':'ᚡ','W':'ᚹ','X':'ᛪ','Y':'ᛦ','Z':'ᛉ',
+    '0':'0','1':'1','2':'2','3':'3','4':'4','5':'5','6':'6','7':'7','8':'8','9':'9',
+    ' ':' ', '!':'᛫', '?':'᛭', '.':'᛬', ',':'᛬', '-':'᛭', ':':'᛬',
+}
+
+# Англосаксонские руны (Futhorc) — расширенный набор
+RUNIC_ANGLO = {
+    'a':'ᚪ','b':'ᛠ','c':'ᚳ','d':'ᛞ','e':'ᛖ','f':'ᚠ','g':'ᚷ','h':'ᚺ','i':'ᛁ','j':'ᛄ',
+    'k':'ᚲ','l':'ᛚ','m':'ᛗ','n':'ᚾ','o':'ᚩ','p':'ᛈ','q':'ᚳ','r':'ᚱ','s':'ᛋ','t':'ᛏ',
+    'u':'ᚢ','v':'ᚹ','w':'ᚹ','x':'ᛉ','y':'ᚣ','z':'ᛉ',
+    'A':'ᚪ','B':'ᛠ','C':'ᚳ','D':'ᛞ','E':'ᛖ','F':'ᚠ','G':'ᚷ','H':'ᚺ','I':'ᛁ','J':'ᛄ',
+    'K':'ᚲ','L':'ᛚ','M':'ᛗ','N':'ᚾ','O':'ᚩ','P':'ᛈ','Q':'ᚳ','R':'ᚱ','S':'ᛋ','T':'ᛏ',
+    'U':'ᚢ','V':'ᚹ','W':'ᚹ','X':'ᛉ','Y':'ᚣ','Z':'ᛉ',
+    ' ':' ', '!':'᛫', '?':'᛭', '.':'᛬', ',':'᛬',
+}
+
+# ============ КОМБИНИРУЮЩИЕ ============
+
 STRIKETHROUGH = '\u0336'
 UNDERLINE = '\u0332'
 OVERLINE = '\u0305'
+WAVY = '\u0330'
+DOT_ABOVE = '\u0307'
+DOT_BELOW = '\u0323'
+SLASH = '\u0338'
+CIRCUMFLEX = '\u0302'
+TILDE = '\u0303'
+ACUTE = '\u0301'
+GRAVE = '\u0300'
+BREVE = '\u0306'
+CARON = '\u030C'
+RING = '\u030A'
+DIAERESIS = '\u0308'
+DOUBLE_ACUTE = '\u030B'
+HORN = '\u031B'
+X_ABOVE = '\u033D'
+BRIDGE_ABOVE = '\u0346'
+SQUARE_ABOVE = '\u033B'
+DIAERESIS_BELOW = '\u0324'
+RING_BELOW = '\u0325'
+PLUS_BELOW = '\u031F'
+MINUS_BELOW = '\u0320'
+UP_ARROW_BELOW = '\u034E'
+DOWN_ARROW_BELOW = '\u0329'
+LEFT_ARROW_BELOW = '\u032B'
+RIGHT_ARROW_BELOW = '\u032C'
+ASTERISK_BELOW = '\u0359'
+SEAGULL_BELOW = '\u033C'
 
+# ============ ФУНКЦИИ ============
 
 def apply(text, mapping):
     return "".join(mapping.get(c, c) for c in text)
@@ -167,25 +261,125 @@ def combine(text, mark):
     return "".join(c + mark for c in text)
 
 
+def upsidedown(text):
+    flip = {
+        'a':'ɐ','b':'q','c':'ɔ','d':'p','e':'ǝ','f':'ɟ','g':'ƃ','h':'ɥ','i':'ᴉ','j':'ɾ',
+        'k':'ʞ','l':'l','m':'ɯ','n':'u','o':'o','p':'d','q':'b','r':'ɹ','s':'s','t':'ʇ',
+        'u':'n','v':'ʌ','w':'ʍ','x':'x','y':'ʎ','z':'z',
+        'A':'∀','B':'𐐒','C':'Ɔ','D':'ᗡ','E':'Ǝ','F':'Ⅎ','G':'⅁','H':'H','I':'I','J':'ſ',
+        'K':'ʞ','L':'˥','M':'W','N':'N','O':'O','P':'Ԁ','Q':'Ò','R':'ᴚ','S':'S','T':'⊥',
+        'U':'∩','V':'Λ','W':'M','X':'X','Y':'⅄','Z':'Z',
+        '0':'0','1':'Ɩ','2':'ᄅ','3':'Ɛ','4':'ㄣ','5':'ϛ','6':'9','7':'ㄥ','8':'8','9':'6',
+    }
+    return "".join(flip.get(c, c) for c in text)[::-1]
+
+
+def wrap(text, left, right):
+    return f"{left} {text} {right}"
+
+
+# ============ ВСЕ СТИЛИ ============
+
 FONTS = {
-    "Bold":           lambda t: apply(t, BOLD),
-    "Italic":         lambda t: apply(t, ITALIC),
-    "Bold Italic":    lambda t: apply(t, BOLD_ITALIC),
-    "Script":         lambda t: apply(t, SCRIPT),
-    "Bold Script":    lambda t: apply(t, BOLD_SCRIPT),
-    "Fraktur (Goth)": lambda t: apply(t, FRAKTUR),
-    "Bold Fraktur":   lambda t: apply(t, BOLD_FRAKTUR),
-    "Double-struck":  lambda t: apply(t, DOUBLE_STRUCK),
-    "Sans-serif":     lambda t: apply(t, SANS_SERIF),
-    "Sans Bold":      lambda t: apply(t, SANS_BOLD),
-    "Monospace":      lambda t: apply(t, MONOSPACE),
-    "Circled":        lambda t: apply(t, CIRCLED),
-    "Neg. Circled":   lambda t: apply(t, NEGATIVE_CIRCLED),
-    "Squared":        lambda t: apply(t, SQUARED),
-    "Parenthesized":  lambda t: apply(t, PARENTHESIZED),
-    "Small Caps":     lambda t: apply(t, SMALL_CAPS),
-    "Full-width":     lambda t: apply(t, FULLWIDTH),
-    "Strikethrough":  lambda t: combine(t, STRIKETHROUGH),
-    "Underline":      lambda t: combine(t, UNDERLINE),
-    "Overline":       lambda t: combine(t, OVERLINE),
+    # Математические
+    "Bold":              lambda t: apply(t, BOLD),
+    "Italic":            lambda t: apply(t, ITALIC),
+    "Bold Italic":       lambda t: apply(t, BOLD_ITALIC),
+    "Script":            lambda t: apply(t, SCRIPT),
+    "Bold Script":       lambda t: apply(t, BOLD_SCRIPT),
+    "Fraktur":           lambda t: apply(t, FRAKTUR),
+    "Bold Fraktur":      lambda t: apply(t, BOLD_FRAKTUR),
+    "Double-struck":     lambda t: apply(t, DOUBLE_STRUCK),
+    "Sans-serif":        lambda t: apply(t, SANS_SERIF),
+    "Sans Bold":         lambda t: apply(t, SANS_BOLD),
+    "Sans Italic":       lambda t: apply(t, SANS_ITALIC),
+    "Sans Bold Italic":  lambda t: apply(t, SANS_BOLD_ITALIC),
+    "Monospace":         lambda t: apply(t, MONOSPACE),
+
+    # Обрамлённые
+    "Circled":           lambda t: apply(t, CIRCLED),
+    "Neg Circled":       lambda t: apply(t, NEGATIVE_CIRCLED),
+    "Squared":           lambda t: apply(t, SQUARED),
+    "Parenthesized":     lambda t: apply(t, PARENTHESIZED),
+
+    # Стилизованные
+    "Small Caps":        lambda t: apply(t, SMALL_CAPS),
+    "Superscript":       lambda t: apply(t, SUPERSCRIPT),
+    "Subscript":         lambda t: apply(t, SUBSCRIPT),
+    "Full-width":        lambda t: apply(t, FULLWIDTH),
+    "Upside Down":       upsidedown,
+
+    # ⚔️ РУНЫ ⚔️
+    "⚔️ Runic":           lambda t: apply(t, RUNIC),
+    "⚔️ Runic Anglo":     lambda t: apply(t, RUNIC_ANGLO),
+
+    # Комбинирующие
+    "Strikethrough":     lambda t: combine(t, STRIKETHROUGH),
+    "Underline":         lambda t: combine(t, UNDERLINE),
+    "Overline":          lambda t: combine(t, OVERLINE),
+    "Wavy":              lambda t: combine(t, WAVY),
+    "Dot Above":         lambda t: combine(t, DOT_ABOVE),
+    "Dot Below":         lambda t: combine(t, DOT_BELOW),
+    "Slash":             lambda t: combine(t, SLASH),
+    "Circumflex":        lambda t: combine(t, CIRCUMFLEX),
+    "Tilde":             lambda t: combine(t, TILDE),
+    "Acute":             lambda t: combine(t, ACUTE),
+    "Grave":             lambda t: combine(t, GRAVE),
+    "Breve":             lambda t: combine(t, BREVE),
+    "Caron":             lambda t: combine(t, CARON),
+    "Ring Above":        lambda t: combine(t, RING),
+    "Diaeresis":         lambda t: combine(t, DIAERESIS),
+    "Double Acute":      lambda t: combine(t, DOUBLE_ACUTE),
+    "Horn":              lambda t: combine(t, HORN),
+    "X Above":           lambda t: combine(t, X_ABOVE),
+    "Bridge Above":      lambda t: combine(t, BRIDGE_ABOVE),
+    "Square Above":      lambda t: combine(t, SQUARE_ABOVE),
+    "Diaeresis Below":   lambda t: combine(t, DIAERESIS_BELOW),
+    "Ring Below":        lambda t: combine(t, RING_BELOW),
+    "Plus Below":        lambda t: combine(t, PLUS_BELOW),
+    "Minus Below":       lambda t: combine(t, MINUS_BELOW),
+    "Up Arrow Below":    lambda t: combine(t, UP_ARROW_BELOW),
+    "Down Arrow Below":  lambda t: combine(t, DOWN_ARROW_BELOW),
+    "Left Arrow Below":  lambda t: combine(t, LEFT_ARROW_BELOW),
+    "Right Arrow Below": lambda t: combine(t, RIGHT_ARROW_BELOW),
+    "Asterisk Below":    lambda t: combine(t, ASTERISK_BELOW),
+    "Seagull Below":     lambda t: combine(t, SEAGULL_BELOW),
+
+    # Рамки
+    "Stars":             lambda t: wrap(t, "★彡", "彡★"),
+    "Hearts":            lambda t: wrap(t, "♡", "♡"),
+    "Fire":              lambda t: wrap(t, "🔥", "🔥"),
+    "Sparkles":          lambda t: wrap(t, "✨", "✨"),
+    "Arrows":            lambda t: wrap(t, "➤", "➤"),
+    "Brackets":          lambda t: wrap(t, "【", "】"),
+    "Angle":             lambda t: wrap(t, "《", "》"),
+    "Wings":             lambda t: wrap(t, "꧁", "꧂"),
+    "Flowers":           lambda t: wrap(t, "❀", "❀"),
+    "Music":             lambda t: wrap(t, "♪♫", "♫♪"),
+    "Vibes":             lambda t: wrap(t, "༺", "༻"),
+    "Symbols":           lambda t: wrap(t, "⫷", "⫸"),
+    "Diamonds":          lambda t: wrap(t, "◆", "◆"),
+    "Crowns":            lambda t: wrap(t, "♛", "♛"),
+    "Swords":            lambda t: wrap(t, "⚔", "⚔"),
+    "Skull":             lambda t: wrap(t, "☠", "☠"),
+    "Coffin":            lambda t: wrap(t, "⚰", "⚰"),
+    "Sparkle2":          lambda t: wrap(t, "⁂", "⁂"),
+    "Clouds":            lambda t: wrap(t, "☁", "☁"),
+    "Bolts":             lambda t: wrap(t, "⚡", "⚡"),
+    "Tentacles":         lambda t: wrap(t, "꧁༺", "༻꧂"),
+    "Daggers":           lambda t: wrap(t, "†", "†"),
+    "Leaves":            lambda t: wrap(t, "🍃", "🍃"),
+    "Moons":             lambda t: wrap(t, "☾", "☽"),
+    "Suns":              lambda t: wrap(t, "☀", "☀"),
+    "Snowflakes":        lambda t: wrap(t, "❄", "❄"),
+    "Notes":             lambda t: wrap(t, "♩", "♪"),
+    "Runic Frame":       lambda t: wrap(t, "ᚠᚢ", "ᚦᚨ"),
+    "Runic Frame 2":     lambda t: wrap(t, "ᛉᛊ", "ᛏᛒ"),
+
+    # Между буквами
+    "Spaced":            lambda t: " ".join(t),
+    "Dotted":            lambda t: "·".join(t),
+    "Underlined dots":   lambda t: "﹏".join(t),
+    "Wavy between":      lambda t: "～".join(t),
+    "Runic between":     lambda t: "᛫".join(t),
 }
